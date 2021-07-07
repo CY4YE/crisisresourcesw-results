@@ -20,6 +20,19 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
     <!-- Local css -->
     <link rel="stylesheet" href="css/style.css">
+    
+    
+    <!-- Not sure if you want this to be added in yet
+    
+    <link rel="stylesheet" href="css/liststyle.css">
+    
+    -->
+    
+    
+    <!-- Fuse Js -->
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6"></script>
+    <!-- Regions Data -->
+    <script src="utils/regions_data.js"></script>
   </head>
   <body>
     <div id="container">
@@ -51,8 +64,8 @@
       </div>
       <div class="column2" style="background-color:#283845;">
         <div style="right: 10px;">
-          <div class="search">
-            <input type="search" class="search-box" />
+          <div class="search" id="search-container">
+            <input type="search" class="search-box" id="search-input" />
             <span class="search-button">
               <span class="search-icon"></span>
             </span>
@@ -84,16 +97,26 @@
       </div>
     </div>
 
+
+
+    <!-- Used for demo purposes (Needs a lot of styling probably...) -->
+    <!--#######################################-->
+    <h2 >Most accurate</h2>
+    <h2 id="results-container-accurate" ></h2>
+    <h2 >Similar regions</h2>
+    <p id="results-container-similar" >
+    </p>
+    <hr >
+    <h2 >Raw json objects</h2>
+    <textarea id="raw-json" style="height: 20em; width: 90em;"></textarea>
+
+    <!--#######################################-->
+
   </body>
-  <script src="/regions/newfoundland.js"></script>
-  <script src="/regions/novascotia.js"></script>
-  <script src="/regions/ontario.js"></script>
-  <script src="/regions/quebec.js"></script>
-  <script src="searchRegions.js"></script>
   <script  src="utils/regionsButton.js"></script>
   <script  src="utils/slides.js"></script>
   <script  src="utils/modal.js"></script>
-  <script  src="utils/searchRegion.js"></script>
+  <script  src="utils/search.js"></script>
 </html>
 </body>
 
@@ -104,3 +127,4 @@
 
 <div style="padding-top:150px; padding-bottom: 150px;">
   <h1 style="text-align:center;">Select a province or search to begin</h1>
+</div>
