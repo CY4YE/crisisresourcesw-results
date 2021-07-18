@@ -158,4 +158,22 @@ const regionsData = [
     "date": "2021-07-01 00:00:00 -0400",
     "description": ""
   },
+
+  // Alberta
+  /* =================================================== */
+  {
+    "title": "Calgary",
+    "url": "region/Alberta/calgary.html",
+    "category": "",
+    "tags": {
+      "tag1": "Alberta",
+      "tag2": "Calgary Metropolitan Region",
+      "tag3": "",
+      "tag4": "",
+      "tag5": "",
+      "tag6": ""
+    },
+    "date": "2021-07-01 00:00:00 -0400",
+    "description": ""
+  },
 ]

@@ -13,22 +13,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <!-- Bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <!-- Prefix free -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
     <!-- Local css -->
     <link rel="stylesheet" href="css/style.css">
-    
-    
+
     <!-- Not sure if you want this to be added in yet
-    
-    <link rel="stylesheet" href="css/liststyle.css">
-    
+      <link rel="stylesheet" href="css/liststyle.css">  
     -->
-    
-    
+
     <!-- Fuse Js -->
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6"></script>
     <!-- Regions Data -->
@@ -42,7 +38,9 @@
       <div class="column1" style="background-color:#202C39;">
         <div max-width="400px;">
           <ul class="hlist">
-            <li class="hover" class="my-button" onclick="openModal(); currentSlide(); " class="hover-shadow cursor">Nova Scotia</li>
+            <li class="hover" class="my-button" onclick="openModal(); currentSlide(); " class="hover-shadow cursor">
+              Nova Scotia
+            </li>
             <li class="hover">Ontario</li>
             <li class="hover">Quebec</li>
             <li class="hover">New Brunswick</li>
@@ -56,7 +54,7 @@
           <ul class="hlist">
             <li class="hover">Northwest Territories</li>
             <li class="hover">Alberta</li>
-            <li><a style="text-decoration:none; color: black" href="bc.html">British Columbia</a></li>
+            <li><a style="text-decoration:none; color: black" href="./pages/british-columbia.html">British Columbia</a></li>
             <li class="hover">Saskatchewan</li>
             <li class="hover">Manitoba</li>
           </ul>
@@ -67,20 +65,14 @@
           <div class="search" id="search-container">
             <input type="search" class="search-box" id="search-input" />
             <span class="search-button">
-              <span class="search-icon"></span>
+            <span class="search-icon"></span>
             </span>
           </div>
         </div>
       </div>
     </div>
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
-    </script>
-
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Nova Scotia Modal -->
-
     <div id="myModal" class="modal">
       <div style="min-width: 400px; max-width: 600px; min-height: 200px; max-height: 450px;" class="modal-content">
         <span class="close cursor" onclick="closeModal()">&times;</span>
@@ -96,35 +88,25 @@
         </h2>
       </div>
     </div>
-
-
-
     <!-- Used for demo purposes (Needs a lot of styling probably...) -->
     <!--#######################################-->
-    <h2 >Most accurate</h2>
-    <h2 id="results-container-accurate" ></h2>
-    <h2 >Similar regions</h2>
-    <p id="results-container-similar" >
+    <h2>Most accurate</h2>
+    <h2 id="results-container-accurate"></h2>
+    <h2>Similar regions</h2>
+    <p id="results-container-similar">
     </p>
-    <hr >
-    <h2 >Raw json objects</h2>
+    <hr>
+    <h2>Raw json objects</h2>
     <textarea id="raw-json" style="height: 20em; width: 90em;"></textarea>
-
     <!--#######################################-->
-
   </body>
-  <script  src="utils/regionsButton.js"></script>
-  <script  src="utils/slides.js"></script>
-  <script  src="utils/modal.js"></script>
-  <script  src="utils/search.js"></script>
+  <script src="utils/regionsButton.js"></script>
+  <script src="utils/slides.js"></script>
+  <script src="utils/modal.js"></script>
+  <script src="utils/search.js"></script>
 </html>
 </body>
-
 <button onClick="openModal()">Open Modal</button>
-
-
-
-
 <div style="padding-top:150px; padding-bottom: 150px;">
   <h1 style="text-align:center;">Select a province or search to begin</h1>
 </div>
