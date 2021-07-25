@@ -21,15 +21,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
   <!-- Local css -->
   <link rel="stylesheet" href="css/style.css">
-
-  <!-- Not sure if you want this to be added in yet
-      <link rel="stylesheet" href="css/liststyle.css">  
-    -->
   <link rel="stylesheet" href="css/liststyle.css">
   <!-- Fuse Js -->
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6"></script>
   <!-- Regions Data -->
   <script src="utils/regions_data.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 
 <body>
@@ -43,23 +40,25 @@
           <li class="hover" class="my-button" onclick="openModal(); currentSlide(); " class="hover-shadow cursor">
             Nova Scotia
           </li>
-          <li class="hover">Ontario</li>
-          <li class="hover">Quebec</li>
-          <li class="hover">New Brunswick</li>
-          <li class="hover">Nunavut</li>
+          <li class="hover"><a class="text-decoration-none text-dark" href="ontario.html">Ontario</a></li>
+          <li class="hover"><a class="text-decoration-none text-dark" href="quebec.html">Quebec</a></li>
+          <li class="hover"><a class="text-decoration-none text-dark" href="new-brunswick.html">New Brunswick</a></li>
+          <li class="hover"><a class="text-decoration-none text-dark" href="nunavut.html">Nunavut</a></li>
         </ul>
         <ul class="hlist">
-          <li class="hover">Prince Edward Island</li>
-          <li class="hover">Northwest Territories</li>
-          <li class="hover">Newfoundland & Labrador</li>
+          <li class="hover"><a class="text-decoration-none text-dark" href="prince-edward-island.html">Prince Edward
+              Island</a></li>
+          <li class="hover"><a class="text-decoration-none text-dark" href="northwest-territories.html">Northwest
+              Territories</a></li>
+          <li class="hover"><a class="text-decoration-none text-dark" href="newfoundland-labrador.html">Newfoundland &
+              Labrador</a></li>
         </ul>
         <ul class="hlist">
-          <li class="hover">Northwest Territories</li>
-          <li class="hover">Alberta</li>
-          <li><a style="text-decoration:none; color: black" href="./pages/british-columbia.html">British Columbia</a>
-          </li>
-          <li class="hover">Saskatchewan</li>
-          <li class="hover">Manitoba</li>
+          <li class="hover"><a class="text-decoration-none text-dark" href="alberta.html">Alberta</a></li>
+          <li class="hover"><a class="text-decoration-none text-dark"
+              href="british-columbia.html">British Columbia</a></li>
+          <li class="hover"><a class="text-decoration-none text-dark" href="saskatchewan.html">Saskatchewan</a></li>
+          <li class="hover"><a class="text-decoration-none text-dark" href="manitoba.html">Manitoba</a></li>
         </ul>
       </div>
     </div>
@@ -74,7 +73,7 @@
       </div>
     </div>
   </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
   <!-- Nova Scotia Modal -->
   <div id="myModal" class="modal">
     <div style="min-width: 400px; max-width: 600px; min-height: 200px; max-height: 450px;" class="modal-content">
@@ -88,6 +87,9 @@
         </ul>
         <a class="my-button" onclick="closeModal()" title="Relevant Title" href="#">Continue</a>
         <a class="my-button" title="Relevant Title" href="#">Contact Doctor</a>
+        <br>
+        <br>
+        <a class="fs-5 text-decoration-none" href="/crisisresources-main/pages/nova-scotia.html">Visit Resource</a>
       </h2>
     </div>
   </div>
@@ -107,14 +109,15 @@
       </div>
     </div>
   </div>
+  <!-- <button onClick="openModal()" class="btn btn-block">Open Modal</button> -->
+  <div style="padding-top:150px; padding-bottom: 150px;">
+    <h1 style="text-align:center;">Select a province or search to begin</h1>
+  </div>
 </body>
+
 <script src="utils/regionsButton.js"></script>
 <script src="utils/slides.js"></script>
 <script src="utils/modal.js"></script>
 <script src="utils/search.js"></script>
 
 </html>
-<!-- <button onClick="openModal()">Open Modal</button>
-<div style="padding-top:150px; padding-bottom: 150px;">
-  <h1 style="text-align:center;">Select a province or search to begin</h1>
-</div> -->
