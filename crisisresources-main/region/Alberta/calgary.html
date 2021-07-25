@@ -21,6 +21,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
     <!-- Local css -->
     <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/liststyle.css">
     <!-- GFM -->
     <link rel="stylesheet" href="../../css/gfm.css">
     <!-- Fuse Js -->
@@ -77,7 +78,7 @@
         </div>
     </div>
 
-<!-- 
+    <!-- 
     The following is done in markdown, so I added the Github css styling (../../css/gfm.css) to make it look similar to Github's README files.
     So if you want to add some background colour to the tables, I think it would work if it's in ../../css/style.css
 
@@ -87,35 +88,102 @@
 
     might be able to override the default color of the headings in the tables
  -->
-    <div class="container markdown-content" style="max-width: 120em;" id="markdown-content">
-<br>
-<br>
-# EMERGENCY SERVICES
-
-<img src="https://img.shields.io/badge/EMERGENCY-911-critical" alt="" style="height: 3em;" class="mb-2">
-
-# Resources:
-
-- [Human Rights](#humanrights)
-- [Violence and Abuse](#violenceandabuse)
-- [Addictions](#addictions)
-- [Bullying](#bullying)
-- [Mental Health](#mentalhealth)
-- [Environment](#environment)
-
+    <div class="card123">
+        <main>
+            <div class="container markdown-content" style="max-width: 120em;">
+                <img src="https://img.shields.io/badge/EMERGENCY-911-critical" alt="" style="height: 3em; float: right;"
+                    class="mb-2">
+                <br>
+                <div class="card" style="font-size: 20px; text-align: left;  margin-bottom: 10px; width: 100%;">
+                    <ul style="list-style: none; margin: 0; padding: 0;">Location:
+                        <a href="/crisisresources-main/" class="text-decoration-none">
+                            <li
+                                style="display: inline; background-color: #F29559; border-radius: 10px; padding: 10px; color: white;">
+                                Canada</li>
+                        </a> ———>
+                        <a href="../../pages/alberta.html" class="text-decoration-none">
+                            <li
+                                style="display: inline; background-color: #F29559; border-radius: 10px; padding: 10px; color: white;">
+                                Alberta</li>
+                        </a> ———>
+                        <a href="calgary.html" class="text-decoration-none">
+                            <li
+                                style="display: inline; background-color: white; border-radius: 10px; padding: 10px; color: #F29559;">
+                                Calgary</li>
+                        </a>
+                    </ul>
+                </div>
+                <div id="resources"
+                    style="background-color: #F29559; border-radius: 10px; padding-left: 40px; padding-right: 20px; padding-top: 10px; padding-bottom: 40px; color: white;">
+                    <h1>Jump To Resource:</h1>
+                    <ul>
+                        <a class="text-white" href="#human-rights">
+                            <li>Human Rights
+                        </a></li>
+                        <a class="text-white" href="#violence-and-abuse">
+                            <li> Violence and Abuse
+                        </a></li>
+                        <a class="text-white" href="#addictions">
+                            <li> Addictions
+                        </a></li>
+                        <a class="text-white" href="#bullying">
+                            <li> Bullying
+                        </a></li>
+                        <a class="text-white" href="#mental-health">
+                            <li> Mental Health
+                        </a></li>
+                        <a class="text-white" href="#environment">
+                            <li> Environment
+                        </a></li>
+                    </ul>
+                </div>
+                <div id="markdown-content">
 ## Human Rights
-
 | Category | Type (Shelter, Helpline) | Name | Description | Servicing ages | Contact Info | Working hours |
 | --- | --- | --- | --- | --- | --- | --- |
 | Homelessness | Shelter | Brenda's House (Children's Cottage Society) | Families can be together in a safe, home-like environment that includes their own bathroom, they have access to on-site laundry facilities and each day will receive three healthy meals and snacks. | Families with children younger than 18 | [Website](https://childrenscottage.ab.ca/index.php?submenu=Economy&src=gendocs&ref=Brendas%20House&category=Main)<br>1921 28 Street S.W. Calgary, Alberta T3E 2H1 | 24 hours, 7 days a week |
+| Safety/Childcare | Shelter | Crisis Nursery (Children's Cottage Society) | Their 14-bed Crisis Nursery provides child care services for families in crisis for up to 72 hours. | Newborn - 8 years old | [Website](https://childrenscottage.ab.ca/index.php?submenu=Economy&src=gendocs&ref=CrisisNursery&category=Main)<br>Phone: `403.233.CARE (2273)`<br>845 McDougall Road N.E. Calgary, Alberta T2E 5A5 | 24 hours, 7 days a week |
+| Homelessness | Shelter | Inn from the Cold | They offer shelter, housing, and coordinated supports to help children and their families achieve independence. | Families in need | [Website](https://innfromthecold.org/)<br>Phone: `403 263 8384`<br>#106, 110 – 11th Avenue SE Calgary, AB T2G 0X5 Canada. | 24 hours, 7 days a week |
+| Repurposing unused clothes and objects | Charity/support programs | Women In Need Society | They repurpose, upcycle and recycle gently used items household items and clothing into social impact | Anyone can donate | [Website](https://www.winsyyc.ca/)<br>Phone: `403-255-5102`<br>7007 54 ST SE, Unit 137. Calgary AB  T2C 3C2. | Hours vary by location (check website) |
+| Poverty/homelessness | Charity/support programs | Women In Need Society | They provide basic needs including emergency food support as well as community and employment services so that women living in poverty can become self-sufficient. | Women living in poverty | [Website](https://www.winsyyc.ca/)<br>Phone: `403-255-5102`<br>7007 54 ST SE, Unit 137. Calgary AB  T2C 3C2. | Hours vary by location (check website) |
+| Quality of life/poverty | Support services | Women's Centre of Calgary | They address women's basic needs and then provide a safe space to build community through a variety of programs and workshops. | Women and girls, all ages | [Website](https://www.womenscentrecalgary.org/)<br>Phone: `403-264-1155`<br>39 4 Street NE Calgary, AB, T2E 3R6 | (currently closed)<br>Usual hours: Mon - Thu: 09:30 AM - 08:30<br>Fri: 09:30 AM - 01:00 PM |
+| Poverty/homelessness | Support services | Victory Foundation | They offer housing, food, clothing, support programs, referrals to other services, church services and a social environment to those who are homeless. | Homeless individuals | [Website](https://victoryfoundation.ca/)<br>Phone: `403-264-0598`<br>7012 Ogden Road SE, Calgary, Alberta T2C 1B4 | N/A |
+| Quality of life/poverty/reconciliation | Support services/programs | Trellis | Their programs focus on unlocking the potential of and supporting the growth of those that are struggling, they also run Calgary's only youth emergency shelter. | children, youth, families | [Website](https://www.growwithtrellis.ca/)<br>Phone: `403-276-9981`<br>(variety of locations) main office: Suite 200, 2609 15 Street NE Calgary, AB T2E 8Y4 | Mon - Fri: 8:30 am - 4:30 pm |
+| Poverty/quality of life | Support services/programs | The Mustard Seed | They are a Christian NPO, seeking to eliminate homelessness and reduce poverty through addressing basic needs such a providing an emergency shelter, meals, clothing ad hygeine products, and helping people in crisis find a job, a house and physical and mental wellness.| Adults | [Website](https://theseed.ca/)<br>Phone: ` 403.269.1319`<br>102 11 Ave SE Calgary, AB T2G 0X5 | 7 days a week: 9 a.m. - 7 p.m. |
+| Poverty | Support hub/food bank/housing program | The Alex | They provide holistic services to a community with complex health needs, often the result of issues such as poverty, trauma, homelessness, or addiction. | Youngest age is 6 | [Website](https://www.thealex.ca)<br>Phone: `Numbers vary by program`<br>The Alex Community Health Centre – 2840 2 Ave SE. | Monday - Friday: 9am - 4pm |
+| Poverty | Support hub/services | The Alex | They provide holistic services to a community with complex health needs, often the result of issues such as poverty, trauma, homelessness, or addiction. | Youngest age is 6 | [Website](https://www.thealex.ca)<br>Phone: `Numbers vary by program`<br>The Alex Community Health Centre – 2840 2 Ave SE. | Monday - Friday: 9am - 4pm |
+
+
 
 ## Violence and Abuse
+| Category | Type (Shelter, Helpline) | Name | Description | Servicing ages | Contact Info | Working hours |
+| --- | --- | --- | --- | --- | --- | --- |
+| Domestic Violence Support | Support services | Women's Centre of Calgary | They provide a safe space for women experiencing domestic violence and offer them services such as free consultations with lawyers to help get them out of their current situation. | Women and girls, all ages | [Website](https://www.womenscentrecalgary.org/)<br>Phone: `403-264-1155`<br>39 4 Street NE Calgary, AB, T2E 3R6 | (currently closed)<br>Usual hours: Mon - Thu: 09:30 AM - 08:30<br>Fri: 09:30 AM - 01:00 PM |
 
 ## Addictions
+| Category | Type (Shelter, Helpline) | Name | Description | Servicing ages | Contact Info | Working hours |
+| --- | --- | --- | --- | --- | --- | --- |
+| Addictions | Counselling Centre | Calgary Counselling Centre | They provide counselling on a wide variety of concerns in order to improve the well being of individuals and families. | Any Age | [Website](https://calgarycounselling.com/counselling/)<br>Phone: `(403) 265 4980` | Mon 8:30am - 7:30pm<br>Tue 8:30am - 7:30pm<br>Wed 8:30am - 7:30pm<br>Thu 8:30am - 7:30pm<br>Fri 8:30am - 5:00pm<br>Sat 9:00am - 3:30pm |
+| Addiction | Treatment Facilities | Alberta Adolescent Recovery Centre | They provide an intensive, family oriented, long-term residential treatment facility for youth in recovery from addiction to drugs and/or alcohol. | Age: 9-21 | [Website](https://www.aarc.ab.ca/) | 24 hours, 7 days a week |
 
 ## Bullying
+| Category | Type (Shelter, Helpline) | Name | Description | Servicing ages | Contact Info | Working hours |
+| --- | --- | --- | --- | --- | --- | --- |
+| Bullying | Counselling Centre | Calgary Counselling Centre | They provide counselling on a wide variety of concerns in order to improve the well being of individuals and families. | Any Age | [Website](https://calgarycounselling.com/counselling/)<br>Phone: `(403) 265 4980` | Mon 8:30am - 7:30pm<br>Tue 8:30am - 7:30pm<br>Wed 8:30am - 7:30pm<br>Thu 8:30am - 7:30pm<br>Fri 8:30am - 5:00pm<br>Sat 9:00am - 3:30pm |
+| Bullying | Help Line | Alberta Supports Centre | It is a hotline used to report suspected abuse. Abuse can be physical, emotional, sexual or financial. This includes hitting, threatening, inappropriate touching or theft of funds. After listening to concerns, caller will be directed to the appropriate service or support. | Any Age | [Website](https://www.alberta.ca/abuse-helpline.aspx) | Mon 7:30am - 8:00pm<br>Tue 7:30am - 8:00pm<br>Wed 7:30am - 8:00pm<br>Thu 7:30am - 8:00pm<br>Fri 7:30am - 8:00pm |
 
 ## Mental Health
+| Category | Type (Shelter, Helpline) | Name | Description | Servicing ages | Contact Info | Working hours |
+| --- | --- | --- | --- | --- | --- | --- |
+| Mental Health Services | Support services | Women's Centre of Calgary | They provide all women with mental health support and the space to grow in a caring community, with holistic workshops to further support them. | Women and girls, all ages | [Website](https://www.womenscentrecalgary.org/)<br>Phone: `403-264-1155`<br>39 4 Street NE Calgary, AB, T2E 3R6 | (currently closed)<br>Usual hours: Mon - Thu: 09:30 AM - 08:30<br>Fri: 09:30 AM - 01:00 PM |
+| Mental Health Services | Support services | Victory Foundation | They offer a holistic solution by meeting whatever physical, spiritual or mental needs an individual may have. | Homeless individuals | [Website](https://victoryfoundation.ca/)<br>Phone: `403-264-0598`<br>7012 Ogden Road SE, Calgary, Alberta T2C 1B4 | N/A |
+| Mental Health Services | Support services/programs | The Mustard Seed | They are a Christian NPO offering a range of services and programs to vulnerable individuals such as basic needs, health and wellness, housing, employment and spiritual care. | Adults | [Website](https://theseed.ca/)<br>Phone: ` 403.269.1319`<br>102 11 Ave SE Calgary, AB T2G 0X5 | 7 days a week: 9 a.m. - 7 p.m. |
+| Sexuality & Intimacy | Counselling Centre | Calgary Counselling Centre | They provide counselling on a wide variety of concerns in order to improve the well being of individuals and families. | Any Age | [Website](https://calgarycounselling.com/counselling/)<br>Phone: `(403) 265 4980` | Mon 8:30am - 7:30pm<br>Tue 8:30am - 7:30pm<br>Wed 8:30am - 7:30pm<br>Thu 8:30am - 7:30pm<br>Fri 8:30am - 5:00pm<br>Sat 9:00am - 3:30pm |
+| Mental Health | Counselling Centre | Calgary Counselling Centre | They provide counselling on a wide variety of concerns in order to improve the well being of individuals and families. | Any Age | [Website](https://calgarycounselling.com/counselling/)<br>Phone: `(403) 265 4980` | Mon 8:30am - 7:30pm<br>Tue 8:30am - 7:30pm<br>Wed 8:30am - 7:30pm<br>Thu 8:30am - 7:30pm<br>Fri 8:30am - 5:00pm<br>Sat 9:00am - 3:30pm |
+| Mental Health | Crisis Support and Professional Counselling | Distress Centre Calgary | They provide 24 hour crisis support, professional counselling, youth peer support and referrals, all at no cost. | Any Age | [Website](https://www.distresscentre.com)<br>Phone: `403.266.HELP (4357)`<br>Email: `help@distresscentre.com`<br>Suite 500, 999 8th Street SW, Calgary, AB  T2R 1J5 | N/A |
+| Mental Health | Counselling Services and Psychiatric Assessment | CUPS Mental Health Clinic | They provide counselling services, psychiatric assessments, medication support and prescriptions. You can also come here to get referrals for addictions counselling, occupational therapy assessments and other mental health support agencies and programs. | Any Age | [Website](https://www.cupscalgary.com/programs-services/health/shared-care-mental-wellness-services)<br>Phone: `403-221-8797`<br>Email: `mentalhealth@cupscalgary.com`<br>1001 10 Ave. SW, Calgary T2R 0B7 | Walk-ins: Mon - Fri: 8:30 - 10am & 1 - 2 pm<br>Appointments: Mon - Fri: 9am - 4pm |
+| Mental Health | Counselling Centre | Canadian Mental Health Association - Calgary |They are a branch of one of Canada’s most established national mental health organizations. They facilitate access to resources people require to maintain and improve mental health and community integration, build resilience and support recovery from mental illness and addiction. | Any Age | [Website](https://cmha.calgary.ab.ca/)<br>Phone: `403-265-4980`<br>Email: `contactus@calgarycounselling.com` | N/A |
+| Mental Health | Crisis Support and Professional Counselling | Youth Unlimited | They are a Christian ministry group providing a wide range of teaching, training, relational, behavioral, and spiritual services to youth in order to maximize their potential | 12-24 years old | [Website](https://yucalgary.ca/)<br>Phone: `403-291-3179` (Office)<br>Phone: `403-710-2879` (Crisis Line - Sexually Exploited)<br>Phone: `403-470-9322` (Crisis Line)<br>Email: `carissa.lawton@yfccanada.org`<br>1725 30 Avenue NE Calgary, AB, T2E 7P6 | Mon 07:00 PM - 09:00 PM<br>Tue 06:00 PM - 08:00 PM<br>Thu 07:00 PM - 09:00 PM |
 
 ## Environment
 | Category | Type (Shelter, Helpline) | Name | Description | Servicing ages | Contact Info | Working hours |
@@ -123,20 +191,34 @@
 | Environment | Environmental Education | Alberta Council for Environmental Education | "As a leader in environmental education, ACEE works at a systems level to reform K-12 education curriculum and bring environmental education into the mainstream; at the grassroots level by guiding children and youth to become environmental leaders in Alberta; and every level in between through its partnerships and professional development for educators". | No age requirements | [Website](https://www.abcee.org/our-ask)<br>Phone: `403-561-1135` | N/A |
 | Environment | Environmental Protection | Alberta Ecotrust Foundation | "Alberta Ecotrust’s work supports the people and projects that effectively address Alberta’s most pressing environmental issues" | No age requirements | [Website](https://albertaecotrust.com)<br>Phone: `403.209.2245`<br>Email: `info@albertaecotrust.com`<br>Suite 250, 305 10 Avenue SE Calgary, Alberta T2G 0W2 | N/A |
 | Environment | Environmental Protection | Alberta Wilderness Association | "Alberta Wilderness Association is a voice for the environment. Since 1965, AWA has inspired communities to care for Alberta’s wild spaces through awareness and action. With a provincial office and library in Calgary, AWA has active members, volunteers, and sponsors throughout Alberta and beyond". | No age requirements | [Website](https://albertawilderness.ca)<br>Phone: `(403) 283-2025`<br>455 – 12 St. NW Calgary, AB T2N 1Y9 | N/A |
+| Environment | Provincial Park Society | Friends of Fish Creek Provincial Park Society | They engage the community through activities and awareness to conserve a truly unique naturalized urban park. They work with various volunteers, members, sponsors, donors and community organizations to deliver programs, courses, and events in the park. | Any Age | [Website](https://friendsoffishcreek.org)<br>Phone: `403-238-3841`<br>Email: `info@friendsoffishcreek.org`<br>15975 Bow Bottom Trail SE, Calgary, AB T2J 6T5 | N/A |
+| Environment | Environmental Education | Green Calgary Association | They focus on environmental literacy and empowerment in the community. They are a trusted local environmental voice with a proven track record of mobilizing the community towards positive environmental action. | Any Age | [Website](https://www.greencalgary.org/)<br>Phone: `403.230.1443` | N/A |
+| Environment | Environmental Research | Pembina Institute | They provide research, analysis and recommendations to inform policies and practices related to energy. They also advocate for approaches that protect our natural systems and communities, across Canada. | Any Age | [Website](https://www.pembina.org)<br>Phone: `403-269-3344`<br>219 - 19 Street NW  Calgary, AB  T2N 2H9 Canada | N/A |
 
+
+
+
+                </div>
+                <br>
+                <div class="container pb-5" style="max-width: 120em;">
+                    <hr>
+                    <div class="row">
+                        <div style=" margin-top: 10px;" class="col">
+                            <h5 class="fs-4 fw-normal">Help us improve this page&nbsp;&nbsp;<a href=""><i
+                                        class="bi bi-box-arrow-up-right"></i></a></h5>
+                        </div>
+                        <div style=" margin-top: 10px;" class="col text-end">
+                            <h5 class="text-muted fs-4"><a
+                                    style="background-color: #F29559; border-radius: 10px; padding: 10px; color: white;"
+                                    href="#top" class="text-decoration-none">Back to top</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
     </div>
-    <br>
-<div class="container pb-5" style="max-width: 120em;">
-<hr>
-    <div class="row">
-        <div class="col">
-            <h5>Help us improve this page&nbsp;&nbsp;<a href=""><i class="bi bi-box-arrow-up-right"></i></a></h5>
-        </div>
-        <div class="col text-end">
-            <h5 class="text-muted"><a href="#top" class="text-decoration-none">Back to top</a></h5>
-        </div>
-    </div>
-</div>
+
+
 </body>
 <script src="../../utils/regionsButton.js"></script>
 <script src="../../utils/slides.js"></script>
