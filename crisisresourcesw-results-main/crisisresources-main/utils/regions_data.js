@@ -1,15 +1,14 @@
 const regionsData = [
-
-  // Ontario
+  // Manitoba
   /* =================================================== */
   {
-    "title": "Toronto",
-    "url": "region/Ontario/toronto.html",
+    "title": "Winnipeg",
+    "url": "region/Manitoba/winnipeg.html",
     "category": "",
     "tags": {
-      "tag1": "GTA",
-      "tag2": "Ontario",
-      "tag3": "Greater Toronto Area Metropolitan Region",
+      "tag1": "Winnipeg",
+      "tag2": "Manitoba",
+      "tag3": "Winnipeg Metropolitan Region",
       "tag4": "",
       "tag5": "",
       "tag6": ""
@@ -18,60 +17,12 @@ const regionsData = [
     "description": ""
   },
   {
-    "title": "Hamilton",
-    "url": "region/Ontario/hamilton.html",
+    "title": "Brandon",
+    "url": "region/Manitoba/brandon.html",
     "category": "",
     "tags": {
-      "tag1": "GTA",
-      "tag2": "Ontario",
-      "tag3": "Greater Toronto Area Metropolitan Region",
-      "tag4": "",
-      "tag5": "",
-      "tag6": ""
-    },
-    "date": "2021-07-01 00:00:00 -0400",
-    "description": ""
-  },
-  {
-    "title": "Burlington",
-    "url": "region/Ontario/burlington.html",
-    "category": "",
-    "tags": {
-      "tag1": "Halton Regional Municipality",
-      "tag2": "Ontario",
-      "tag3": "Greater Toronto Area Metropolitan Region",
-      "tag4": "",
-      "tag5": "",
-      "tag6": ""
-    },
-    "date": "2021-07-01 00:00:00 -0400",
-    "description": ""
-  },
-  {
-    "title": "Ajax",
-    "url": "region/Ontario/ajax.html",
-    "category": "",
-    "tags": {
-      "tag1": "Durham Regional Municipality",
-      "tag2": "Ontario",
-      "tag3": "Greater Toronto Area Metropolitan Region",
-      "tag4": "",
-      "tag5": "",
-      "tag6": ""
-    },
-    "date": "2021-07-01 00:00:00 -0400",
-    "description": ""
-  },
-
-  // British Columbia
-  /* =================================================== */
-  {
-    "title": "Courtenay",
-    "url": "region/British-Columbia/courtenay.html",
-    "category": "",
-    "tags": {
-      "tag1": "British Columbia",
-      "tag2": "Campbell River Metropolitan Region",
+      "tag1": "Brandon",
+      "tag2": "Manitoba",
       "tag3": "",
       "tag4": "",
       "tag5": "",
@@ -81,12 +32,12 @@ const regionsData = [
     "description": ""
   },
   {
-    "title": "Abbotsford",
-    "url": "region/British-Columbia/abbotsford.html",
+    "title": "Dauphin",
+    "url": "region/Manitoba/dauphin.html",
     "category": "",
     "tags": {
-      "tag1": "British Columbia",
-      "tag2": "Vancouver Metropolitan Region",
+      "tag1": "Dauphin",
+      "tag2": "Manitoba",
       "tag3": "",
       "tag4": "",
       "tag5": "",
@@ -96,12 +47,12 @@ const regionsData = [
     "description": ""
   },
   {
-    "title": "Squamish",
-    "url": "region/British-Columbia/squamish.html",
+    "title": "Flin Flon",
+    "url": "region/Manitoba/flinflon.html",
     "category": "",
     "tags": {
-      "tag1": "British Columbia",
-      "tag2": "Vancouver Metropolitan Region",
+      "tag1": "Flin Flon",
+      "tag2": "Manitoba",
       "tag3": "",
       "tag4": "",
       "tag5": "",
@@ -111,30 +62,12 @@ const regionsData = [
     "description": ""
   },
   {
-    "title": "Chilliwack",
-    "url": "region/British-Columbia/chilliwack.html",
+    "title": "Portage La Prairie",
+    "url": "region/Manitoba/portagelaprairie.html",
     "category": "",
     "tags": {
-      "tag1": "British Columbia",
-      "tag2": "Vancouver Metropolitan Region",
-      "tag3": "",
-      "tag4": "",
-      "tag5": "",
-      "tag6": ""
-    },
-    "date": "2021-07-01 00:00:00 -0400",
-    "description": ""
-  },
-
-  // Nova Scotia
-  /* =================================================== */
-  {
-    "title": "Halifax",
-    "url": "region/Nova-Scotia/halifax.html",
-    "category": "",
-    "tags": {
-      "tag1": "Nova Scotia",
-      "tag2": "Halifax Regional Municipality",
+      "tag1": "Portage La Prairie",
+      "tag2": "Manitoba",
       "tag3": "",
       "tag4": "",
       "tag5": "",
@@ -144,12 +77,12 @@ const regionsData = [
     "description": ""
   },
   {
-    "title": "Dartmouth",
-    "url": "region/Nova-Scotia/dartmouth.html",
+    "title": "Thompson",
+    "url": "region/Manitoba/thompson.html",
     "category": "",
     "tags": {
-      "tag1": "Dartmouth",
-      "tag2": "Halifax Regional Municipality",
+      "tag1": "Thompson",
+      "tag2": "Manitoba",
       "tag3": "",
       "tag4": "",
       "tag5": "",
@@ -158,16 +91,28 @@ const regionsData = [
     "date": "2021-07-01 00:00:00 -0400",
     "description": ""
   },
-
-  // Alberta
-  /* =================================================== */
   {
-    "title": "Calgary",
-    "url": "region/Alberta/calgary.html",
+    "title": "Wrinkler",
+    "url": "region/Manitoba/wrinkler.html",
     "category": "",
     "tags": {
-      "tag1": "Alberta",
-      "tag2": "Calgary Metropolitan Region",
+      "tag1": "Wrinkler",
+      "tag2": "Manitoba",
+      "tag3": "",
+      "tag4": "",
+      "tag5": "",
+      "tag6": ""
+    },
+    "date": "2021-07-01 00:00:00 -0400",
+    "description": ""
+  },
+  {
+    "title": "The Pas",
+    "url": "region/Manitoba/thepas.html",
+    "category": "",
+    "tags": {
+      "tag1": "The Pas",
+      "tag2": "Manitoba",
       "tag3": "",
       "tag4": "",
       "tag5": "",
