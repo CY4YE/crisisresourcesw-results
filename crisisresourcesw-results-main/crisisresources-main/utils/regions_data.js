@@ -121,4 +121,231 @@ const regionsData = [
     "date": "2021-07-01 00:00:00 -0400",
     "description": ""
   },
+  // Saskatchewan
+  /* =================================================== */
+  {
+    "title": "Estevan",
+    "url": "region/Saskatchewan/estevan.html",
+    "category": "",
+    "tags": {
+      "tag1": "Saskatchewan",
+      "tag2": "Estevan",
+      "tag3": "",
+      "tag4": "",
+      "tag5": "",
+      "tag6": ""
+    },
+    "date": "2021-07-01 00:00:00 -0400",
+    "description": ""
+  },
+  {
+    "title": "Humboldt",
+    "url": "region/Saskatchewan/humboldt.html",
+    "category": "",
+    "tags": {
+      "tag1": "Saskatchewan",
+      "tag2": "Humboldt",
+      "tag3": "",
+      "tag4": "",
+      "tag5": "",
+      "tag6": ""
+    },
+    "date": "2021-07-01 00:00:00 -0400",
+    "description": ""
+  },
+  {
+    "title": "Martensville",
+    "url": "region/Saskatchewan/martensville.html",
+    "category": "",
+    "tags": {
+      "tag1": "Saskatchewan",
+      "tag2": "Martensville",
+      "tag3": "",
+      "tag4": "",
+      "tag5": "",
+      "tag6": ""
+    },
+    "date": "2021-07-01 00:00:00 -0400",
+    "description": ""
+  },
+  {
+    "title": "Meadow Lake",
+    "url": "region/Saskatchewan/meadowlake.html",
+    "category": "",
+    "tags": {
+      "tag1": "Saskatchewan",
+      "tag2": "Meadow Lake",
+      "tag3": "",
+      "tag4": "",
+      "tag5": "",
+      "tag6": ""
+    },
+    "date": "2021-07-01 00:00:00 -0400",
+    "description": ""
+  },
+  {
+    "title": "Melfort",
+    "url": "region/Saskatchewan/melfort.html",
+    "category": "",
+    "tags": {
+      "tag1": "Saskatchewan",
+      "tag2": "Melfort",
+      "tag3": "",
+      "tag4": "",
+      "tag5": "",
+      "tag6": ""
+    },
+    "date": "2021-07-01 00:00:00 -0400",
+    "description": ""
+  },
+  {
+    "title": "Melville",
+    "url": "region/Saskatchewan/melville.html",
+    "category": "",
+    "tags": {
+      "tag1": "Saskatchewan",
+      "tag2": "Melville",
+      "tag3": "",
+      "tag4": "",
+      "tag5": "",
+      "tag6": ""
+    },
+    "date": "2021-07-01 00:00:00 -0400",
+    "description": ""
+  },
+  {
+    "title": "Moose Jaw",
+    "url": "region/Saskatchewan/moosejaw.html",
+    "category": "",
+    "tags": {
+      "tag1": "Saskatchewan",
+      "tag2": "Moose Jaw",
+      "tag3": "",
+      "tag4": "",
+      "tag5": "",
+      "tag6": ""
+    },
+    "date": "2021-07-01 00:00:00 -0400",
+    "description": ""
+  },
+  {
+    "title": "North Battleford",
+    "url": "region/Saskatchewan/northbattleford.html",
+    "category": "",
+    "tags": {
+      "tag1": "Saskatchewan",
+      "tag2": "North Battleford",
+      "tag3": "",
+      "tag4": "",
+      "tag5": "",
+      "tag6": ""
+    },
+    "date": "2021-07-01 00:00:00 -0400",
+    "description": ""
+  },
+  {
+    "title": "Prince Albert",
+    "url": "region/Saskatchewan/princealbert.html",
+    "category": "",
+    "tags": {
+      "tag1": "Saskatchewan",
+      "tag2": "Prince Albert",
+      "tag3": "",
+      "tag4": "",
+      "tag5": "",
+      "tag6": ""
+    },
+    "date": "2021-07-01 00:00:00 -0400",
+    "description": ""
+  },
+  {
+    "title": "Regina",
+    "url": "region/Saskatchewan/regina.html",
+    "category": "",
+    "tags": {
+      "tag1": "Saskatchewan",
+      "tag2": "Regina",
+      "tag3": "",
+      "tag4": "",
+      "tag5": "",
+      "tag6": ""
+    },
+    "date": "2021-07-01 00:00:00 -0400",
+    "description": ""
+  },
+  {
+    "title": "Saskatoon",
+    "url": "region/Saskatchewan/saskatoon.html",
+    "category": "",
+    "tags": {
+      "tag1": "Saskatchewan",
+      "tag2": "Saskatoon",
+      "tag3": "",
+      "tag4": "",
+      "tag5": "",
+      "tag6": ""
+    },
+    "date": "2021-07-01 00:00:00 -0400",
+    "description": ""
+  },
+  {
+    "title": "Swift Current",
+    "url": "region/Saskatchewan/swiftcurrent.html",
+    "category": "",
+    "tags": {
+      "tag1": "Saskatchewan",
+      "tag2": "Swift Current",
+      "tag3": "",
+      "tag4": "",
+      "tag5": "",
+      "tag6": ""
+    },
+    "date": "2021-07-01 00:00:00 -0400",
+    "description": ""
+  },
+  {
+    "title": "Warman",
+    "url": "region/Saskatchewan/warman.html",
+    "category": "",
+    "tags": {
+      "tag1": "Saskatchewan",
+      "tag2": "Warman",
+      "tag3": "",
+      "tag4": "",
+      "tag5": "",
+      "tag6": ""
+    },
+    "date": "2021-07-01 00:00:00 -0400",
+    "description": ""
+  },
+  {
+    "title": "Weyburn",
+    "url": "region/Saskatchewan/weyburn.html",
+    "category": "",
+    "tags": {
+      "tag1": "Saskatchewan",
+      "tag2": "Weyburn",
+      "tag3": "",
+      "tag4": "",
+      "tag5": "",
+      "tag6": ""
+    },
+    "date": "2021-07-01 00:00:00 -0400",
+    "description": ""
+  },
+  {
+    "title": "Yorkton",
+    "url": "region/Saskatchewan/yorkton.html",
+    "category": "",
+    "tags": {
+      "tag1": "Saskatchewan",
+      "tag2": "Yorkton",
+      "tag3": "",
+      "tag4": "",
+      "tag5": "",
+      "tag6": ""
+    },
+    "date": "2021-07-01 00:00:00 -0400",
+    "description": ""
+  },
 ]
