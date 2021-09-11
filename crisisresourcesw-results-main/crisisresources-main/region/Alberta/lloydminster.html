@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-grandeprairieompatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lloydminster | Crisis resources</title>
+  <!-- Chart.JS -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!--Showdown JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!-- Bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <!-- Prefix free -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <!-- Local css -->
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/liststyle.css">
+  <!-- GFM -->
+  <link rel="stylesheet" href="../../css/gfm.css">
+  <!-- Fuse Js -->
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6"></script>
+  <!-- Regions Data -->
+  <script src="../../utils/regions_data.js"></script>
+</head>
+
+<body class="card123" style="overflow-x: hidden;">
+  <!-- <div id="container">
+        <img width="101%;" height="100%;" src="../../img/title.jpg">
+    </div> -->
+  <div class="" style="background-color:#202C39;">
+    <h1 style="font-size: 10em;" class="py-3 text-white">Lloydminster - <a href="../../pages/alberta.html"
+        style="color:#F2D492;" class="text-decoration-none">AB</a>
+    </h1>
+  </div>
+  <div class="row">
+    <div class=" column1" style="background-color:#202C39;">
+      <div max-width="400px;">
+        <ul class="hlist">
+          <li class="hover" class="my-button" onclick="openModal(); currentSlide(); " class="hover-shadow cursor">
+            Nova Scotia
+          </li>
+          <li class="hover"><a class="text-decoration-none text-dark" href="../../pages/ontario.html">Ontario</a></li>
+          <li class="hover"><a class="text-decoration-none text-dark" href="../../pages/quebec.html">Quebec</a></li>
+          <li class="hover"><a class="text-decoration-none text-dark" href="../../pages/new-brunswick.html">New
+              Brunswick</a></li>
+          <li class="hover"><a class="text-decoration-none text-dark" href="../../pages/nunavut.html">Nunavut</a></li>
+        </ul>
+        <ul class="hlist">
+          <li class="hover"><a class="text-decoration-none text-dark"
+              href="../../pages/prince-edward-island.html">Prince Edward
+              Island</a></li>
+          <li class="hover"><a class="text-decoration-none text-dark"
+              href="../../pages/northwest-territories.html">Northwest
+              Territories</a></li>
+          <li class="hover"><a class="text-decoration-none text-dark"
+              href="../../pages/newfoundland-labrador.html">Newfoundland &
+              Labrador</a></li>
+        </ul>
+        <ul class="hlist">
+          <li class="hover"><a class="text-decoration-none text-dark" href="../../pages/alberta.html">Alberta</a></li>
+          <li class="hover"><a class="text-decoration-none text-dark" href="../../pages/british-columbia.html">British
+              Columbia</a></li>
+          <li class="hover"><a class="text-decoration-none text-dark"
+              href="../../pages/saskatchewan.html">Saskatchewan</a></li>
+          <li class="hover"><a class="text-decoration-none text-dark" href="../../pages/manitoba.html">Manitoba</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="column2" style="background-color:#283845;">
+      <div style="right: 10px;">
+        <div class="search" id="search-container">
+          <input type="search" class="search-box" id="search-input" />
+          <span class="search-button">
+            <span class="search-icon"></span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card123">
+    <main>
+      <div class="container markdown-content" style="max-width: 120em;">
+        <img src="https://img.shields.io/badge/EMERGENCY-911-critical" alt="" style="height: 3em; float: right;"
+          class="mb-2">
+        <br>
+        <div class="card" style="font-size: 20px; text-align: left;  margin-bottom: 10px; width: 100%;">
+          <ul style="list-style: none; margin: 0; padding: 0;">Location:
+            <a href="../../" class="text-decoration-none">
+              <li style="display: inline; background-color: #F29559; border-radius: 10px; padding: 10px; color: white;">
+                Canada</li>
+            </a> ———>
+            <a href="../../pages/alberta.html" class="text-decoration-none">
+              <li style="display: inline; background-color: #F29559; border-radius: 10px; padding: 10px; color: white;">
+                Alberta
+              </li>
+            </a> ———>
+            <a href="lloydminster.html" class="text-decoration-none">
+              <li style="display: inline; background-color: white; border-radius: 10px; padding: 10px; color: #F29559;">
+                Lloydminster</li>
+            </a>
+          </ul>
+        </div>
+        <!-- 
+          
+          I'm not sure if this whole section works because we're using iframes
+
+          <div id="resources"
+          style="background-color: #F29559; border-radius: 10px; padding-left: 40px; padding-right: 20px; padding-top: 10px; padding-bottom: 40px; color: white;">
+          <h1>Jump To Resource:</h1>
+          <ul>
+            <a class="text-white" href="#human-rights">
+              <li>Human Rights
+            </a></li>
+            <a class="text-white" href="#violence-and-abuse">
+              <li> Violence and Abuse
+            </a></li>
+            <a class="text-white" href="#addictions">
+              <li> Addictions
+            </a></li>
+            <a class="text-white" href="#bullying">
+              <li> Bullying
+            </a></li>
+            <a class="text-white" href="#mental-health">
+              <li> Mental Health
+            </a></li>
+            <a class="text-white" href="#environment">
+              <li> Environment
+            </a></li>
+          </ul>
+        </div> -->
+        <iframe
+          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSvFXdu5O2yqevV4sxk2yJBzr2fdn6dbjEB1Bbp9jCvSuFOAzdeahRwxrJc5Ghn1RWBl_8RpTNN6nOd/pubhtml?gid=1488706388&amp;single=true&amp;widget=false&amp;headers=false"
+          style="width: 100%; height: 1000px;"></iframe>
+        <br>
+        <div class="container pb-5" style="max-width: 120em;">
+          <hr>
+          <div class="row">
+            <div style=" margin-top: 10px;" class="col">
+              <h5 class="fs-4 fw-normal">Help us improve this page&nbsp;&nbsp;<a href=""><i
+                    class="bi bi-box-arrow-up-right"></i></a></h5>
+            </div>
+            <div style=" margin-top: 10px;" class="col text-end">
+              <h5 class="text-muted fs-4"><a
+                  style="background-color: #F29559; border-radius: 10px; padding: 10px; color: white;" href="#top"
+                  class="text-decoration-none">Back to top</a></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+
+</body>
+<script src="../../utils/regionsButton.js"></script>
+<script src="../../utils/slides.js"></script>
+<script src="../../utils/modal.js"></script>
+<script src="../../utils/search.js"></script>
+<script src="../../utils/markdown.js"></script>
+
+</html>
